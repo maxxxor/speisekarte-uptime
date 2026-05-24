@@ -1,0 +1,35 @@
+# Upptime Configuration
+# https://upptime.js.org/docs/configuration
+
+owner: maxxxor
+repo: speisekarte-uptime
+userDisplayName: maxxxor
+
+sites:
+  - name: Gästemenü (trattoria-da-marco)
+    url: https://speisekarte-ten.vercel.app/m/trattoria-da-marco
+    expectedResponseTime: 3000
+    body:
+      keyword: Trattoria
+
+  - name: Login-Seite
+    url: https://speisekarte-ten.vercel.app/login
+    expectedResponseTime: 3000
+    body:
+      keyword: Anmelden
+
+status-website:
+  cname: false
+  baseUrl: /speisekarte-uptime
+  logoUrl: ""
+  name: Speisekarte Status
+
+i18n:
+  activeIncidents: Aktive Störungen
+  noActiveIncidents: Alle Systeme laufen
+
+notifications:
+  - type: github-issues
+
+assignees:
+  - maxxxor
