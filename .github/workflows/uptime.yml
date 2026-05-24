@@ -1,0 +1,19 @@
+name: Uptime CI
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+jobs:
+  uptime:
+    name: Check uptime
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Run Upptime
+        uses: upptime/uptime-monitor@master
+        with:
+          UPPTIME_GH_APP_TOKEN: ${{ secrets.GH_PAT }}
+        env:
+          ACTIONS_STEP_DEBUG: false
