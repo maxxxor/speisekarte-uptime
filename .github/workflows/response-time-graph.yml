@@ -14,7 +14,6 @@ jobs:
       - name: Run Upptime
         uses: upptime/uptime-monitor@master
         with:
-          UPPTIME_GH_APP_TOKEN: ${{ secrets.GH_PAT }}
           command: graphs
         env:
-          ACTIONS_STEP_DEBUG: false
+          GH_PAT: ${{ secrets.GH_PAT }}

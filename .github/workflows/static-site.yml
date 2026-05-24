@@ -2,7 +2,6 @@ name: Static Site CI
 on:
   push:
     branches:
-      - master
       - main
 
 jobs:
@@ -15,7 +14,6 @@ jobs:
       - name: Run Upptime
         uses: upptime/uptime-monitor@master
         with:
-          UPPTIME_GH_APP_TOKEN: ${{ secrets.GH_PAT }}
           command: site
         env:
-          ACTIONS_STEP_DEBUG: false
+          GH_PAT: ${{ secrets.GH_PAT }}
