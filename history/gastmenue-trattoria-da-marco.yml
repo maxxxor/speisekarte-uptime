@@ -1,7 +1,7 @@
 url: https://speisekarte-ten.vercel.app/m/trattoria-da-marco
-status: up
-code: 200
-responseTime: 1165
-lastUpdated: 2026-06-16T16:51:34.246Z
+status: down
+code: 500
+responseTime: 10524
+lastUpdated: 2026-06-24T15:01:34.012Z
 startTime: 2026-05-24T13:32:46.431Z
 generator: Upptime <https://github.com/upptime/upptime>
