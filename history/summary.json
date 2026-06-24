@@ -4,20 +4,21 @@
     "url": "https://speisekarte-ten.vercel.app/m/trattoria-da-marco",
     "icon": "https://icons.duckduckgo.com/ip3/speisekarte-ten.vercel.app.ico",
     "slug": "gastmenue-trattoria-da-marco",
-    "status": "down",
-    "uptime": "99.66%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.66%",
-    "uptimeYear": "99.66%",
-    "time": 5264,
-    "timeDay": 10524,
-    "timeWeek": 10524,
-    "timeMonth": 6206,
-    "timeYear": 5264,
+    "status": "up",
+    "uptime": "99.55%",
+    "uptimeDay": "96.29%",
+    "uptimeWeek": "99.47%",
+    "uptimeMonth": "99.54%",
+    "uptimeYear": "99.55%",
+    "time": 4684,
+    "timeDay": 5866,
+    "timeWeek": 5866,
+    "timeMonth": 5373,
+    "timeYear": 4684,
     "dailyMinutesDown": {
       "2026-06-07": 46,
-      "2026-06-16": 104
+      "2026-06-16": 104,
+      "2026-06-24": 53
     }
   },
   {
